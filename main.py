@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
-from google_calendar_events import calendar_events
-from save_data import data_to_df
+from app.google_calendar_events import calendar_events
+from app.save_data import data_to_df
 
 
 load_dotenv()
