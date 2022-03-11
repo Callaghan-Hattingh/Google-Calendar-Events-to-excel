@@ -1,0 +1,8 @@
+*.json
+.idea
+.env
+*.xlsx
+__pycache__
+
+
+
