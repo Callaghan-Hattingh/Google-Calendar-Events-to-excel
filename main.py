@@ -8,6 +8,7 @@ load_dotenv()
 
 
 if __name__ == "__main__":
+    # You could also replace the os.getenv("EMAIL_1") with "example@business.com"
     users = [
         os.getenv("EMAIL_1"),
         os.getenv("EMAIL_2"),
